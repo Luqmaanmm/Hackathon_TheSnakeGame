@@ -1,0 +1,47 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  background-image: url('moroccan-flower-dark.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: auto;
+}
+
+#game-board {
+  background-color: WhiteSmoke;
+  width: 90vmin;
+  height: 90vmin;
+  display: grid;
+  grid-template-columns: repeat(21, 1fr);
+  grid-template-rows: repeat(21, 1fr);
+  box-shadow: black 20px 10px 50px;
+}
+
+img {
+  height: 4vmin;
+  object-fit: cover;
+}
+
+#top {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-family: 'Lobster Two';
+  color: #80ffff;
+  font-size: 50px;
+}
+
+#score {
+  margin-left: 350px;
+}
+
+#credits {
+  font-family: 'Lobster Two';
+  color: #80ffff;
+  font-size: 30px;
+}
